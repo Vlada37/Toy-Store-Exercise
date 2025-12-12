@@ -1,0 +1,46 @@
+# Build directories
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Runtime output
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Publish output
+publish/
+_release/
+_artifacts/
+
+# ASP.NET Core environment-specific files
+appsettings.Development.json
+appsettings.Local.json
+
+# IIS Express
+.vscode/
+*.vspscc
+*.vscode
+
+# Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+# Backup and temporary
+*.tmp
+*.temp
+*.bak
+*.swp
+*.orig
+
+# Node/Yarn/NPM (if you ever add front-end)
+node_modules/
+wwwroot/lib/
